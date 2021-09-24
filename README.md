@@ -1,5 +1,6 @@
 # vue-with-nuxt
 
+Hosted using surge ---- [here](https://accidental-building-nuxt-vue.surge.sh/)
 ## Build Setup
 
 ```bash
