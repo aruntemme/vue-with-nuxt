@@ -1,5 +1,8 @@
 <template>
-  <Tutorial/>
+  <div>
+    <NavBar />
+    <h1 class="text-center text-red-500 text-4xl">welcome</h1>
+  </div>
 </template>
 
 <script>
