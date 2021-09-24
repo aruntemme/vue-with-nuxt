@@ -1,11 +1,19 @@
 <template>
-  <div class="bg-green-600 h-12">
-    <div class="nav-contents gap-7 ">
-      <h4>Home</h4>
-      <h4>Application</h4>
-      <h4>About us</h4>
-    </div>
-  </div>
+  <header>
+    <nav>
+      <ul class="flex flex-row bg-red-400 h-12 justify-center">
+        <li class="p-4 font-semibold">
+          <nuxt-link exact to="/">Home</nuxt-link>
+        </li>
+        <li class="p-4 font-semibold">
+          <nuxt-link to="/applications">Applications</nuxt-link>
+        </li>
+        <li class="p-4 font-semibold">
+          <nuxt-link to="/issues">Issues</nuxt-link>
+        </li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
 <script>
